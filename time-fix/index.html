@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#f7f8fa">
+  <title>时光修复隐私政策 | Time Fix Privacy Policy</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --background: #f7f8fa;
+      --surface: #ffffff;
+      --text: #182030;
+      --secondary: #667085;
+      --line: #e4e7ec;
+      --accent: #1778fe;
+      --accent-soft: #eef5ff;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+        "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+      line-height: 1.75;
+    }
+
+    main {
+      width: min(820px, calc(100% - 32px));
+      margin: 36px auto;
+      padding: 38px 42px;
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      box-shadow: 0 12px 36px rgba(24, 32, 48, 0.06);
+    }
+
+    header { margin-bottom: 32px; }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(28px, 5vw, 38px);
+      line-height: 1.25;
+      letter-spacing: -0.02em;
+    }
+
+    h2 {
+      margin: 34px 0 12px;
+      font-size: 21px;
+      line-height: 1.4;
+    }
+
+    p { margin: 10px 0; }
+    ul { margin: 10px 0; padding-left: 22px; }
+    li + li { margin-top: 7px; }
+
+    a { color: var(--accent); text-underline-offset: 3px; }
+
+    .meta, .summary, footer { color: var(--secondary); }
+
+    .summary {
+      padding: 16px 18px;
+      background: var(--accent-soft);
+      border-radius: 14px;
+    }
+
+    .language-switch {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 24px;
+    }
+
+    .language-switch button {
+      appearance: none;
+      min-width: 92px;
+      padding: 9px 14px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--surface);
+      color: var(--text);
+      font: inherit;
+      cursor: pointer;
+    }
+
+    .language-switch button.active {
+      border-color: var(--accent);
+      background: var(--accent);
+      color: #fff;
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+    }
+
+    table {
+      width: 100%;
+      min-width: 580px;
+      border-collapse: collapse;
+      font-size: 15px;
+    }
+
+    th, td {
+      padding: 13px 15px;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th { background: #fafbfc; }
+    tr:last-child td { border-bottom: 0; }
+
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid var(--line);
+      font-size: 14px;
+    }
+
+    [hidden] { display: none !important; }
+
+    @media (max-width: 600px) {
+      main {
+        width: 100%;
+        margin: 0;
+        padding: 28px 20px 36px;
+        border: 0;
+        border-radius: 0;
+        box-shadow: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <nav class="language-switch" aria-label="Language">
+      <button type="button" id="show-zh" class="active" aria-pressed="true">中文</button>
+      <button type="button" id="show-en" aria-pressed="false">English</button>
+    </nav>
+
+    <article id="zh">
+      <header>
+        <h1>时光修复隐私政策</h1>
+        <p class="meta">生效日期：2026年10月5日　更新日期：2026年10月5日</p>
+      </header>
+
+      <p class="summary">时光修复用于修改照片和视频的拍摄时间与定位信息。媒体文件的读取、复制和修改均在你的设备本地完成，开发者不会将你的照片或视频上传到服务器。</p>
+
+      <h2>1. 我们如何处理信息</h2>
+      <p>本应用没有用户账户系统，不接入行为统计或广告服务，也不由开发者运营服务器收集你的照片、视频、拍摄时间、经纬度或操作记录。</p>
+      <ul>
+        <li>你主动选择媒体后，应用读取相应照片或视频及其中的拍摄时间、定位等元数据。</li>
+        <li>保存时，应用在设备的 <strong>DCIM/Camera</strong> 目录生成一份新文件，并按你的选择修改时间或定位信息。</li>
+        <li>原文件不会被应用修改或删除。处理过程中产生的临时文件会在操作完成后删除。</li>
+        <li>应用仅在本机保存必要的设置状态，例如你是否已阅读启动说明、是否已请求媒体权限，以及是否已同意使用地图服务。</li>
+      </ul>
+
+      <h2>2. 系统权限</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>权限</th><th>用途</th><th>是否必需</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>照片和视频访问</td><td>展示并读取你选择的照片或视频，以复制文件及修改拍摄信息。</td><td>使用媒体编辑功能时需要；支持系统提供的部分访问。</td></tr>
+            <tr><td>原始媒体定位信息</td><td>读取并保留照片或视频中原有的 GPS 经纬度，避免复制副本时定位信息丢失。</td><td>读取或保留原定位时需要。</td></tr>
+            <tr><td>存储空间读写（旧版 Android）</td><td>在旧版 Android 系统中读取媒体，并将新副本保存到公共图库目录。</td><td>仅相应旧版系统需要。</td></tr>
+            <tr><td>网络访问</td><td>在你主动打开地图选点或地点搜索时，连接高德地图服务加载地图及搜索结果。</td><td>手动输入经纬度和本地媒体处理不依赖此权限。</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>你可以在系统设置中撤回权限。撤回后，与该权限相关的功能可能无法使用，但不会影响其他可用功能。</p>
+
+      <h2>3. 地图服务与第三方 SDK</h2>
+      <p>地图选点和地点搜索由<strong>高德地图 SDK</strong> 提供。只有在你主动进入地图功能并同意地图服务说明后，相关服务才会联网。为提供地图加载、地点搜索及安全保障，高德地图可能按照其规则处理必要的设备、网络、日志和搜索信息。具体处理范围以<a href="https://lbs.amap.com/pages/privacy/" target="_blank" rel="noopener noreferrer">高德开放平台隐私权政策</a>为准。</p>
+      <p>开发者不会通过高德地图获取或保存你的照片、视频，也不会在自己的服务器保存你在地图中选择的经纬度。你也可以不使用地图，直接手动输入经纬度。</p>
+
+      <h2>4. 信息共享、转让与公开披露</h2>
+      <p>除你主动使用上述高德地图服务所必需的处理外，开发者不会向其他第三方共享、转让或公开披露你的媒体文件及其元数据。法律法规另有强制要求的除外。</p>
+
+      <h2>5. 信息存储与安全</h2>
+      <p>媒体处理在本地完成，新副本保存在设备的公共图库目录中，由你自行管理。应用设置保存在应用的本地私有存储中，卸载应用后通常会被系统清除。请在删除原文件前检查新副本的内容、时间和定位信息是否正确。</p>
+
+      <h2>6. 你的选择与权利</h2>
+      <ul>
+        <li>你可以拒绝或撤回照片、视频及原始媒体定位权限。</li>
+        <li>你可以不使用地图服务，改为手动填写经纬度。</li>
+        <li>你可以在系统图库中查看或删除应用生成的新副本。</li>
+        <li>你可以通过卸载应用清除应用本地保存的设置状态。</li>
+      </ul>
+
+      <h2>7. 未成年人保护</h2>
+      <p>本应用不面向儿童提供需要注册的网络服务，也不会由开发者主动收集未成年人的个人信息。未成年人应在监护人指导下使用本应用及地图功能。</p>
+
+      <h2>8. 政策更新</h2>
+      <p>应用功能、权限或第三方服务发生变化时，本政策可能相应更新。重大变化会通过应用内提示或本页面说明。更新后的政策自页面标明的生效日期起生效。</p>
+
+      <h2>9. 联系我们</h2>
+      <p>如对本政策或应用的数据处理方式有疑问，可以通过 <a href="https://github.com/gusgnix/ExifEditor/issues" target="_blank" rel="noopener noreferrer">ExifEditor GitHub Issues</a> 联系开发者。</p>
+
+      <footer>适用应用：时光修复（包名：com.ausgnix.exifeditor）</footer>
+    </article>
+
+    <article id="en" lang="en" hidden>
+      <header>
+        <h1>Time Fix Privacy Policy</h1>
+        <p class="meta">Effective: October 5, 2026　Last updated: October 5, 2026</p>
+      </header>
+
+      <p class="summary">Time Fix adjusts the capture time and location metadata of photos and videos. Media is read, copied, and edited locally on your device. The developer does not upload your photos or videos to a server.</p>
+
+      <h2>1. How information is processed</h2>
+      <p>The app has no user account system and does not integrate behavioral analytics or advertising services. The developer does not operate a server that collects your photos, videos, capture times, coordinates, or activity history.</p>
+      <ul>
+        <li>After you select media, the app reads that photo or video and metadata such as its capture time and location.</li>
+        <li>When you save, the app creates a new file in <strong>DCIM/Camera</strong> and changes the time or location according to your choices.</li>
+        <li>The original file is not changed or deleted. Temporary processing files are deleted after the operation finishes.</li>
+        <li>The app stores only necessary settings locally, such as whether you viewed the startup notice, whether media permission was requested, and whether you accepted the map service notice.</li>
+      </ul>
+
+      <h2>2. System permissions</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Permission</th><th>Purpose</th><th>When needed</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Photos and videos</td><td>Displays and reads media you select so the app can copy it and edit capture information.</td><td>Required for media editing; Android's selected-media access is supported.</td></tr>
+            <tr><td>Original media location</td><td>Reads and preserves existing GPS coordinates so location metadata is not lost when a copy is created.</td><td>Required when reading or preserving the original location.</td></tr>
+            <tr><td>Storage read/write on older Android versions</td><td>Reads media and saves a new copy to the public gallery directory on older Android versions.</td><td>Only required on applicable older versions.</td></tr>
+            <tr><td>Internet</td><td>Connects to AMap when you explicitly open map selection or location search.</td><td>Manual coordinate entry and local media processing do not depend on it.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>You can revoke permissions in system settings. Related features may stop working after revocation, while other available features remain usable.</p>
+
+      <h2>3. Map service and third-party SDK</h2>
+      <p>Map selection and place search are provided by the <strong>AMap SDK</strong>. The service connects to the internet only after you open the map feature and accept its notice. To load maps, search for places, and protect service security, AMap may process necessary device, network, log, and search information under its own rules. See the <a href="https://lbs.amap.com/pages/privacy/" target="_blank" rel="noopener noreferrer">AMap Platform Privacy Policy</a> for details.</p>
+      <p>The developer does not use AMap to obtain or store your photos or videos and does not retain your selected coordinates on a developer-operated server. You may avoid the map service and enter coordinates manually.</p>
+
+      <h2>4. Sharing, transfer, and public disclosure</h2>
+      <p>Except for processing necessary when you actively use the AMap service described above, the developer does not share, transfer, or publicly disclose your media or its metadata to third parties, unless required by law.</p>
+
+      <h2>5. Storage and security</h2>
+      <p>Media processing occurs locally. New copies are stored in your device's public gallery and remain under your control. App settings are stored in the app's private local storage and are normally removed by the system when you uninstall the app. Verify the content, time, and location of a new copy before deleting the original.</p>
+
+      <h2>6. Your choices and rights</h2>
+      <ul>
+        <li>You may deny or revoke photo, video, and original media location permissions.</li>
+        <li>You may enter coordinates manually instead of using the map service.</li>
+        <li>You may view or delete generated copies in the system gallery.</li>
+        <li>You may clear locally stored app settings by uninstalling the app.</li>
+      </ul>
+
+      <h2>7. Children</h2>
+      <p>The app does not provide an account-based online service directed to children, and the developer does not knowingly collect children's personal information. Minors should use the app and map feature with guidance from a guardian.</p>
+
+      <h2>8. Policy updates</h2>
+      <p>This policy may be updated when app features, permissions, or third-party services change. Material changes will be explained in the app or on this page. An updated policy takes effect on the date shown above.</p>
+
+      <h2>9. Contact</h2>
+      <p>For questions about this policy or the app's data practices, contact the developer through <a href="https://github.com/gusgnix/ExifEditor/issues" target="_blank" rel="noopener noreferrer">ExifEditor GitHub Issues</a>.</p>
+
+      <footer>Applicable app: Time Fix (package: com.ausgnix.exifeditor)</footer>
+    </article>
+  </main>
+
+  <script>
+    const zh = document.getElementById('zh');
+    const en = document.getElementById('en');
+    const showZh = document.getElementById('show-zh');
+    const showEn = document.getElementById('show-en');
+
+    function setLanguage(language) {
+      const english = language === 'en';
+      zh.hidden = english;
+      en.hidden = !english;
+      showZh.classList.toggle('active', !english);
+      showEn.classList.toggle('active', english);
+      showZh.setAttribute('aria-pressed', String(!english));
+      showEn.setAttribute('aria-pressed', String(english));
+      document.documentElement.lang = english ? 'en' : 'zh-CN';
+      document.title = english
+        ? 'Time Fix Privacy Policy'
+        : '时光修复隐私政策';
+    }
+
+    showZh.addEventListener('click', () => setLanguage('zh'));
+    showEn.addEventListener('click', () => setLanguage('en'));
+    if (navigator.language && !navigator.language.toLowerCase().startsWith('zh')) {
+      setLanguage('en');
+    }
+  </script>
+</body>
+</html>
